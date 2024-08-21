@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+
+
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+
+        // rams
+        .image {
+            img {
+                border: 1px solid #333333;
+                border-radius: 10%;
+            }
+        }
+
+        // info
+        .info {
+            margin: 0 15px;
+            padding: 15px;
+
+            span {
+                margin-right: 10px;
+                font-weight: bold;
+                color: #999999;
+                line-height: 1.5;
+
+            }
+
+            p {
+                font-size: 23px;
+            }
+        }
+
+
+    }
+
+    footer {
+        position: relative;
+
+        .social-media {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+
+        }
+    }
+}
+
+// responsive
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 40px;
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+
+            .image {
+                margin: 0 auto;
+            }
+
+            // info
+            .info {
+                h1 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+
+            }
+
+
+        }
+
+        footer {
+            position: relative;
+
+            .social-media {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+
+            }
+        }
+    }
+
+}
+
+//responsive mobile
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+
+            .image {
+                margin: 0 auto;
+
+                img {
+                    width: 150px;
+                }
+            }
+
+            // info
+            .info {
+                h1 {
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 8px;
+                }
+
+            }
+
+
+        }
+
+        footer {
+            position: relative;
+
+            .social-media {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+
+            }
+        }
+    }
+}

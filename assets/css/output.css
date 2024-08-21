@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+header {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.container main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container main .image img {
+  border: 1px solid #333333;
+  border-radius: 10%;
+}
+.container main .info {
+  margin: 0 15px;
+  padding: 15px;
+}
+.container main .info span {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #999999;
+  line-height: 1.5;
+}
+.container main .info p {
+  font-size: 23px;
+}
+.container footer {
+  position: relative;
+}
+.container footer .social-media {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+  .container main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container main .image {
+    margin: 0 auto;
+  }
+  .container main .info h1 {
+    font-size: 20px;
+  }
+  .container main .info p {
+    font-size: 18px;
+  }
+  .container footer {
+    position: relative;
+  }
+  .container footer .social-media {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .container footer .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container main .image {
+    margin: 0 auto;
+  }
+  .container main .image img {
+    width: 150px;
+  }
+  .container main .info h1 {
+    font-size: 12px;
+  }
+  .container main .info p {
+    font-size: 8px;
+  }
+  .container footer {
+    position: relative;
+  }
+  .container footer .social-media {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .container footer .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
