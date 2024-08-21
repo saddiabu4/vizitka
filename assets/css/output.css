@@ -34,7 +34,6 @@ header {
   padding: 15px;
 }
 .container main .info span {
-  margin-right: 10px;
   font-weight: bold;
   color: #999999;
   line-height: 1.5;
@@ -61,6 +60,9 @@ header {
   }
   .container main .image {
     margin: 0 auto;
+  }
+  .container main .info span {
+    line-height: 0;
   }
   .container main .info h1 {
     font-size: 20px;
@@ -95,6 +97,9 @@ header {
   }
   .container main .image img {
     width: 150px;
+  }
+  .container main .info span {
+    line-height: 0;
   }
   .container main .info h1 {
     font-size: 12px;

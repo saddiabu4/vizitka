@@ -41,7 +41,7 @@ header {
             padding: 15px;
 
             span {
-                margin-right: 10px;
+                // margin-right: 10px;
                 font-weight: bold;
                 color: #999999;
                 line-height: 1.5;
@@ -83,6 +83,9 @@ header {
 
             // info
             .info {
+                span{
+                    line-height: 0;
+                }
                 h1 {
                     font-size: 20px;
                 }
@@ -136,6 +139,9 @@ header {
 
             // info
             .info {
+                span{
+                    line-height: 0;
+                }
                 h1 {
                     font-size: 12px;
                 }
